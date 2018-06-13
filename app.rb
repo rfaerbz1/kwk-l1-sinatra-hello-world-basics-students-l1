@@ -6,6 +6,6 @@ class App < Sinatra::Base
   end 
   get '/thing' do 
     "ta ti ti ta"
-    erb :index
+    erb :index.erb
   end 
 end
