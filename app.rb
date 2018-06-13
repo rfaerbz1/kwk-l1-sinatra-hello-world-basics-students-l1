@@ -1,3 +1,8 @@
+require 'bundler'
+Bundler.require
+require_relative 'models/model.rb'
+require_relative 'models/imagegetter.rb'
+
 class App < Sinatra::Base
 
   # Define your GET '/' route below and respond with "Hello, World!"
