@@ -1,7 +1,7 @@
 require 'bundler'
 Bundler.require
-require_relative 'models/model.rb'
-require_relative 'models/imagegetter.rb'
+# require_relative 'models/model.rb'
+# require_relative 'models/imagegetter.rb'
 
 class App < Sinatra::Base
 
